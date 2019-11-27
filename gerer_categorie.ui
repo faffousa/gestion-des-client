@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>gerer_categorie</class>
+ <widget class="QDialog" name="gerer_categorie">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>588</width>
+    <height>435</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>551</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Tab 1</string>
+    </attribute>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>417</x>
+       <y>65</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:10px;
+background-color:lightblue;</string>
+     </property>
+     <property name="text">
+      <string>chercher</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="noom">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>30</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>209</x>
+       <y>190</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>260</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:10px;
+background-color:lightblue;</string>
+     </property>
+     <property name="text">
+      <string>modifier</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_4">
+     <property name="geometry">
+      <rect>
+       <x>208</x>
+       <y>130</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>260</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:10px;
+background-color:green;</string>
+     </property>
+     <property name="text">
+      <string>valider</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="back_2">
+     <property name="geometry">
+      <rect>
+       <x>-4</x>
+       <y>2</y>
+       <width>661</width>
+       <height>381</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(44, 62, 89);
+border-right-color: rgb(44, 62, 89);
+border-color: rgb(44, 62, 89);
+selection-background-color: rgb(255, 255, 255);
+border-bottom-color: rgb(255, 255, 255);
+border-bottom-color: rgb(44, 62, 89);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>171</width>
+       <height>431</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:#323544;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QFrame" name="frame_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-10</y>
+        <width>181</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#A88DDA;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>29</y>
+         <width>161</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 63 14pt &quot;Segoe UI Semibold&quot;;
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>CATEGORIES</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="Line" name="line_2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>110</y>
+        <width>118</width>
+        <height>3</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>32</x>
+        <y>134</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:#B3492C;
+font: 63 10pt &quot;Segoe UI Semibold&quot;;</string>
+      </property>
+      <property name="text">
+       <string>NOM</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>190</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:#B3492C;
+font: 63 10pt &quot;Segoe UI Semibold&quot;;</string>
+      </property>
+      <property name="text">
+       <string>TAUX_REDUCTION</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_5">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>173</y>
+        <width>118</width>
+        <height>3</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_6">
+      <property name="geometry">
+       <rect>
+        <x>29</x>
+        <y>230</y>
+        <width>118</width>
+        <height>3</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </widget>
+    <zorder>back_2</zorder>
+    <zorder>pushButton</zorder>
+    <zorder>noom</zorder>
+    <zorder>lineEdit_2</zorder>
+    <zorder>pushButton_2</zorder>
+    <zorder>lineEdit_4</zorder>
+    <zorder>pushButton_4</zorder>
+    <zorder>frame</zorder>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Tab 2</string>
+    </attribute>
+    <widget class="QLineEdit" name="lineEdit_3">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>300</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>300</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:10px;
+background-color:red;</string>
+     </property>
+     <property name="text">
+      <string>supprimer</string>
+     </property>
+    </widget>
+    <widget class="QTableView" name="table1">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>60</y>
+       <width>256</width>
+       <height>192</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="back">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>551</width>
+       <height>411</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(44, 62, 89);
+border-right-color: rgb(44, 62, 89);
+border-color: rgb(44, 62, 89);
+selection-background-color: rgb(255, 255, 255);
+border-bottom-color: rgb(255, 255, 255);
+border-bottom-color: rgb(44, 62, 89);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <zorder>back</zorder>
+    <zorder>lineEdit_3</zorder>
+    <zorder>pushButton_3</zorder>
+    <zorder>table1</zorder>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
